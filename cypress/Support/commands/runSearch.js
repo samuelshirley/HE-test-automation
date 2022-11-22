@@ -1,9 +1,9 @@
-import search from '../../e2e/Github/Search/search-selectors.json';
+import search from '../../e2e/Github/Pages/Search/search-selectors.json';
 import nav from '../../e2e/Github/Nav/nav-selectors.json';
 
 Cypress.Commands.add('runSearch', () => {
   cy.visit(Cypress.env('BASE_URL'));
-  cy.url().should('contain', 'https://github.com');
+  cy.url().should('contain', Cypress.env('BASE_URL'));
   cy.get(nav['search-bar'])
     .should('be.visible')
     .click()

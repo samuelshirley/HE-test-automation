@@ -14,7 +14,10 @@ describe('As a guest (not logged-in), when I search github for the term "create-
     });
 
     it('facebook/create-react-app at top of search results', () => {
-      cy.url().should('contain', '/search?q=create-react-app');
+      cy.url().should(
+        'contain',
+        Cypress.env('BASE_URL') + '/search?q=create-react-app'
+      );
       cy.get(search['repo-list']).each((repoItem) => {
         cy.get(repoItem[0].children[0])
           .find(search['repo-item-header'])
