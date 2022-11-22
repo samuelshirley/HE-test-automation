@@ -1,0 +1,7 @@
+{
+  "codesearch-results": ".codesearch-results",
+  "jump-to-search": "#jump-to-suggestion-search-global",
+  "repo-list": ".repo-list",
+  "repo-list-item": ".repo-list-item",
+  "repo-item-header": ".f4"
+}

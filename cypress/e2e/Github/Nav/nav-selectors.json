@@ -1,0 +1,7 @@
+{
+  "search-bar": ".header-search-wrapper > .form-control",
+    
+  "mobile": {
+    "header-hamburger": ".js-details-target > .Button-content > .Button-label"
+  }
+}
