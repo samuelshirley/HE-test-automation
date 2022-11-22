@@ -1,7 +1,9 @@
 # HE-test-automation
 
-## Step One - Add env variables to cypress.config.template -> copy and save as cypress.config.js 
-(BASE_URL: 'https://github.com')
+## Step One - Add a cypress.config.js with env variables from the cypress.config.template
+
+(for the code challenge purposes, you will only need to install and run.)
+
 ## Step Two - Install
 
 ```
@@ -9,15 +11,16 @@ npm install
 ```
 
 ## How to run headless
+
 ```
 npm run cypress:run
 ```
 
 ## How to run headed in your choice of chrome / electron
+
 ```
 npm run cypress:open
 ```
-
 
 # Ticket-AC
 
