@@ -28,3 +28,9 @@ npm run cypress:open
   - A count of matching results
   - The facebook/create-create-app project as the first result
 - As a guest, when I click the "About" button in the landing page footer I am taken to the GitHub "About" page
+
+# Extra
+
+I made a super simple single API test with Jest hitting Github's API and checking the repo url and request status.
+
+I made an extra github account just for the auth token and left it in so that the test can be run without setup. (normally the API key would be in a config file)
