@@ -34,3 +34,8 @@ npm run cypress:open
 I made a super simple single API test with Jest hitting Github's API and checking the repo url and request status.
 
 I made an extra github account just for the auth token and left it in so that the test can be run without setup. (normally the API key would be in a config file)
+
+```
+npm run apitests
+
+```
