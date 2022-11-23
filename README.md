@@ -3,6 +3,8 @@
 ## Step One - Add a cypress.config.js with env variables from the cypress.config.template
 
 (for the code challenge purposes, you will only need to install and run.)
+Test for AC is in /cypress/e2e/Github/Pages/Search/unathenticated-users.cy.js
+Other folders are to demonstrate a folder structure 
 
 ## Step Two - Install
 
