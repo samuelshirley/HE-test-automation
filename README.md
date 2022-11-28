@@ -4,7 +4,7 @@
 
 (for the code challenge purposes, you will only need to install and run.)
 Test for AC is in /cypress/e2e/Github/Pages/Search/unathenticated-users.cy.js
-Other folders are to demonstrate a folder structure 
+Other folders are to demonstrate a folder structure
 
 ## Step Two - Install
 
@@ -35,7 +35,7 @@ npm run cypress:open
 
 I made a super simple single API test with Jest hitting Github's API and checking the repo url and request status.
 
-I made an extra github account just for the auth token and left it in so that the test can be run without setup. (normally the API key would be in a config file)
+Please get the API key from the onetime secret link in the email sent to Brendan then paste it into {{APIKEY}} inside config.template.json in /API-TEST and save the file as "config.json"
 
 ```
 npm run apitests
