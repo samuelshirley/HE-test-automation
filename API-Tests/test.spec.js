@@ -1,7 +1,8 @@
 const { Octokit } = require('octokit');
+const config = require('./config');
 
 const octokit = new Octokit({
-  auth: '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',
+  auth: config.key,
 });
 
 test('Access a public repo with ocokit / github API', async () => {
